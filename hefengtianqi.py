@@ -15,6 +15,7 @@ import json, requests, sys
 #loc='%s'%location
 print('请输入您要查询的城市：')
 loc=input()
+#The key is used for my personal usage, please do not use it random, thx.
 key1='38810bc1e40a401fb6ca6ff04a4f056b'
 canshu={'location':loc,'key':key1}
 #url=r'https://free-api.heweather.com/s6/weather/now?location=%s&key=38810bc1e40a401fb6ca6ff04a4f056b'%(location)
